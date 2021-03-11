@@ -26,15 +26,13 @@ namespace WinoFix
             if (pgbSplash.Value < 9)
             {
                 pgbSplash.Value = pgbSplash.Value + 1;
-                Console.WriteLine("SEGUNDOS: " + pgbSplash.Value);
             }
             else
             {
                 tmrCarregamento.Stop();
-                FormPrincipal fp = new FormPrincipal();
+                FormLogin formLogin = new FormLogin();
                 this.Hide();
-                fp.Show();
-
+                formLogin.Show();
             }
         }
 

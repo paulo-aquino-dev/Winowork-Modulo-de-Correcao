@@ -123,6 +123,46 @@ namespace WinoFix.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap símbolo_sólido_white {
+            get {
+                object obj = ResourceManager.GetObject("símbolo-sólido-white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap símbolo_sólido_white_min {
+            get {
+                object obj = ResourceManager.GetObject("símbolo-sólido-white-min", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vertical_sólido {
+            get {
+                object obj = ResourceManager.GetObject("vertical-sólido", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vertical_sólido_white {
+            get {
+                object obj = ResourceManager.GetObject("vertical-sólido-white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WinoWork {
             get {
                 object obj = ResourceManager.GetObject("WinoWork", resourceCulture);

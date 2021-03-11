@@ -121,8 +121,20 @@
   <data name="humanus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\humanus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="vertical-sólido-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vertical-sólido-white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="símbolo-sólido-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\símbolo-sólido-white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WinoWork" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WinoWork.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logo_min" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo_min.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vertical-sólido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vertical-sólido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,7 +148,7 @@
   <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WinoWork" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WinoWork.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="símbolo-sólido-white-min" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\símbolo-sólido-white-min.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

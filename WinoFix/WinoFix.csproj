@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>símbolo-gradiente-ok.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="BunifuDataViz 1.0.1">
       <HintPath>..\..\..\..\Desktop\Folder\BUNIFU\BunifuDataViz 1.0.1.dll</HintPath>
@@ -61,35 +64,53 @@
   <ItemGroup>
     <Compile Include="Conexao.cs" />
     <Compile Include="DBconnect.cs" />
-    <Compile Include="FormCarregamento.cs">
+    <Compile Include="Forms\FormCarregamento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCarregamento.Designer.cs">
+    <Compile Include="Forms\FormCarregamento.Designer.cs">
       <DependentUpon>FormCarregamento.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormLogin.cs">
+    <Compile Include="Forms\FormCorrecao.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormLogin.Designer.cs">
+    <Compile Include="Forms\FormCorrecao.Designer.cs">
+      <DependentUpon>FormCorrecao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPrincipal.cs">
+    <Compile Include="Forms\FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPrincipal.Designer.cs">
+    <Compile Include="Forms\FormPrincipal.Designer.cs">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRelatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRelatorio.Designer.cs">
+      <DependentUpon>FormRelatorio.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginControl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormCarregamento.resx">
+    <EmbeddedResource Include="Forms\FormCarregamento.resx">
       <DependentUpon>FormCarregamento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormLogin.resx">
+    <EmbeddedResource Include="Forms\FormCorrecao.resx">
+      <DependentUpon>FormCorrecao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPrincipal.resx">
+    <EmbeddedResource Include="Forms\FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRelatorio.resx">
+      <DependentUpon>FormRelatorio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -134,6 +155,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\WinoWork.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataAccess\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vertical-sólido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vertical-sólido-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\símbolo-sólido-white-min.png" />
+    <None Include="Resources\símbolo-sólido-white.png" />
+    <Content Include="símbolo-gradiente-ok.ico" />
+    <Content Include="winowork.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

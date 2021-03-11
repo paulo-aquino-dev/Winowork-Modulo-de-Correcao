@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using WinoFix.Forms;
 
 namespace WinoFix
 {
@@ -13,7 +14,7 @@ namespace WinoFix
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormLogin());
+            Application.Run(new FormCarregamento());
 
         }
     }

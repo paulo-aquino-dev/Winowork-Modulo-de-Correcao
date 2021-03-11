@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCarregamento));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tmrCarregamento = new System.Windows.Forms.Timer(this.components);
@@ -80,10 +81,11 @@
             this.Controls.Add(this.pgbSplash);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormCarregamento";
             this.Opacity = 0D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormCarregamento";
+            this.Text = "Winowork: Modulo de Correção";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

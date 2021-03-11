@@ -24,5 +24,26 @@ namespace WinoFix
             //dbConnect.selectFuncionario();
 
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void entrada_Tick(object sender, EventArgs e)
+        {
+            if (Opacity == 1)
+            {
+                entrada.Stop();
+            }
+            Opacity += .2;
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            FormPrincipal formPrincipal = new FormPrincipal();
+            this.Hide();
+            formPrincipal.Show();
+        }
     }
 }
